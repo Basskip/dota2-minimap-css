@@ -1,4 +1,6 @@
-# Project Title
+[![npm version](https://badge.fury.io/js/dota2-minimap-css.svg)](//npmjs.com/package/dota2-minimap-css)
+
+# Dota 2 Minimap CSS
 
 CSS styles to display the Dota 2 minimap on a webpage
 
