@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dota 2 Minimap CSS Demo</title>
+    <link rel="stylesheet" type="text/css" href="assets/stylesheets/d2minimap.css">
+</head>
+<body>
+    <div class="d2map">
+        {{#each towers as |tower|}}
+            <div class="{{ tower.team }}-{{ tower.lane }}-t{{ tower.tier }} {{ tower.team }} tower"></div>
+        {{/each}}
+
+        {{#each t4towers as |tower|}}
+            <div class="{{ tower.team }}-t4-{{ tower.side }} {{ tower.team }} tower"></div>
+        {{/each}}
+
+        {{#each barracks as |rax|}}
+            <div class="{{ rax.team }}-{{ rax.lane }}-{{ rax.type }} {{ rax.team }} barrack"></div>
+        {{/each}}
+
+        {{#each ancients as |ancient|}}
+            <div class="{{ ancient.team }}-ancient {{ ancient.team }} ancient"></div>
+        {{/each}}       
+    </div>
+</body>
+</html>

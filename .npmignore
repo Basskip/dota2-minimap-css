@@ -1,0 +1,8 @@
+# Ignore all
+*
+
+!assets/images/dota_minimal.png
+!assets/stylesheets/d2minimap.css
+!README.md
+!LICENSE
+!package.json

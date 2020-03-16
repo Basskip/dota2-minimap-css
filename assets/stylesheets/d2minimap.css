@@ -1,0 +1,218 @@
+.d2map {
+    background-image: url("../images/dota_minimal.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1000px;
+    height: 1000px;
+    position: relative;
+}
+
+.rad {
+    background-color: #00ff00;
+}
+
+.dire {
+    background-color: #ff0000;
+}
+
+.tower {
+    width: 2%;
+    height: 2%;
+    transform: translate(-50%);
+}
+
+.barrack {
+    width: 2%;
+    height: 2%;
+    transform: translate(-50%);
+}
+
+.ancient {
+    width: 4%;
+    height: 4%;
+    transform: translate(-50%);
+}
+
+.rad-top-t1 {
+    position: absolute;
+    left: 12.258687615394997%;
+    bottom: 60.955607891083%;
+}
+.rad-top-t2 {
+    position: absolute;
+    left: 12.837839126587%;
+    bottom: 44.7393953800201%;
+}
+.rad-top-t3 {
+    position: absolute;
+    left: 10.231661796570002%;
+    bottom: 29.440167546272%;
+}
+.rad-middle-t1 {
+    position: absolute;
+    left: 40.6853377819061%;
+    bottom: 41.5058016777039%;
+}
+.rad-middle-t2 {
+    position: absolute;
+    left: 29.054048657417%;
+    bottom: 33.976829051970995%;
+}
+.rad-middle-t3 {
+    position: absolute;
+    left: 22.007730603218%;
+    bottom: 25.000008940697%;
+}
+.rad-bottom-t1 {
+    position: absolute;
+    left: 79.705607891083%;
+    bottom: 13.030892610549998%;
+}
+.rad-bottom-t2 {
+    position: absolute;
+    left: 49.372598528862%;
+    bottom: 11.872586607933002%;
+}
+.rad-bottom-t3 {
+    position: absolute;
+    left: 26.158311963080997%;
+    bottom: 13.127413392066998%;
+}
+.dire-top-t1 {
+    position: absolute;
+    left: 21.814668178558%;
+    bottom: 86.293435096741%;
+}
+.dire-top-t2 {
+    position: absolute;
+    left: 50%;
+    bottom: 86.293435096741%;
+}
+.dire-top-t3 {
+    position: absolute;
+    left: 71.428573131561%;
+    bottom: 84.84556078910799%;
+}
+.dire-middle-t1 {
+    position: absolute;
+    left: 53.1611979007721%;
+    bottom: 53.9333999156952%;
+}
+.dire-middle-t2 {
+    position: absolute;
+    left: 65.057915449142%;
+    bottom: 62.741315364838%;
+}
+.dire-middle-t3 {
+    position: absolute;
+    left: 75.772202014923%;
+    bottom: 72.677361965179%;
+}
+.dire-bottom-t1 {
+    position: absolute;
+    left: 87.821781635284%;
+    bottom: 39.570817351341%;
+}
+.dire-bottom-t2 {
+    position: absolute;
+    left: 87.451738119125%;
+    bottom: 52.3166000843048%;
+}
+.dire-bottom-t3 {
+    position: absolute;
+    left: 88.22394013404801%;
+    bottom: 68.291503190994%;
+}
+
+.rad-t4-left {
+    position: absolute;
+    left: 15.540549159050002%;
+    bottom: 20.656380057335%;
+}
+.rad-t4-right {
+    position: absolute;
+    left: 17.471051216124998%;
+    bottom: 18.677616119385%;
+}
+.dire-t4-left {
+    position: absolute;
+    left: 79.826253652573%;
+    bottom: 78.812742233276%;
+}
+.dire-t4-right {
+    position: absolute;
+    left: 81.85328245163001%;
+    bottom: 76.737451553345%;
+}
+
+.rad-top-melee {
+    position: absolute;
+    left: 11.776071786879996%;
+    bottom: 27.328690886497%;
+}
+.rad-top-ranged {
+    position: absolute;
+    left: 8.711391687392997%;
+    bottom: 27.322632074356%;
+}
+.rad-middle-melee {
+    position: absolute;
+    left: 21.814695000647998%;
+    bottom: 22.538620233536%;
+}
+.rad-middle-ranged {
+    position: absolute;
+    left: 19.473934173584002%;
+    bottom: 24.668192863464%;
+}
+.rad-bottom-melee {
+    position: absolute;
+    left: 24.179559946059996%;
+    bottom: 11.631262302399001%;
+}
+.rad-bottom-ranged {
+    position: absolute;
+    left: 24.185568094254002%;
+    bottom: 14.689913392066998%;
+}
+.dire-top-melee {
+    position: absolute;
+    left: 73.516029119492%;
+    bottom: 83.156377077103%;
+}
+.dire-top-ranged {
+    position: absolute;
+    left: 73.491793870926%;
+    bottom: 86.347728967667%;
+}
+.dire-middle-melee {
+    position: absolute;
+    left: 78.366380929947%;
+    bottom: 73.06957244873%;
+}
+.dire-middle-ranged {
+    position: absolute;
+    left: 76.158303022385%;
+    bottom: 75.235277414322%;
+}
+.dire-bottom-melee {
+    position: absolute;
+    left: 89.768332242966%;
+    bottom: 70.463418960571%;
+}
+.dire-bottom-ranged {
+    position: absolute;
+    left: 86.583012342453%;
+    bottom: 70.366793870926%;
+}
+
+.rad-ancient {
+    position: absolute;
+    left: 14.285752177237995%;
+    bottom: 15.712393403053%;
+}
+.dire-ancient {
+    position: absolute;
+    left: 83.349400758743%;
+    bottom: 80.164080858231%;
+}

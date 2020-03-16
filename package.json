@@ -1,0 +1,28 @@
+{
+  "name": "dota2-minimap-css",
+  "version": "1.0.0",
+  "description": "Dota 2 minimap in CSS",
+  "scripts": {
+    "generate": "node src/generate.js"
+  },
+  "author": "basskip",
+  "devDependencies": {
+    "handlebars": "^4.7.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/basskip/dota2-minimap-css"
+  },
+  "keywords": [
+    "dota",
+    "dota 2",
+    "minimap",
+    "map",
+    "css",
+    "spritesheet"
+  ],
+  "bugs": {
+    "url": "https://github.com/basskip/dota2-minimap-css/issues"
+  },
+  "homepage": "https://github.com/basskip/dota2-minimap-css"
+}

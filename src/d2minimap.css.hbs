@@ -1,0 +1,66 @@
+.d2map {
+    background-image: url("../images/dota_minimal.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1000px;
+    height: 1000px;
+    position: relative;
+}
+
+.rad {
+    background-color: #00ff00;
+}
+
+.dire {
+    background-color: #ff0000;
+}
+
+.tower {
+    width: 2%;
+    height: 2%;
+    transform: translate(-50%);
+}
+
+.barrack {
+    width: 2%;
+    height: 2%;
+    transform: translate(-50%);
+}
+
+.ancient {
+    width: 4%;
+    height: 4%;
+    transform: translate(-50%);
+}
+
+{{#each towers as |tower|}}
+.{{ tower.team }}-{{ tower.lane }}-t{{ tower.tier }} {
+    position: absolute;
+    left: {{ tower.left }}%;
+    bottom: {{ tower.bottom }}%;
+}
+{{/each}}
+
+{{#each t4towers as |tower|}}
+.{{ tower.team }}-t4-{{ tower.side }} {
+    position: absolute;
+    left: {{ tower.left }}%;
+    bottom: {{ tower.bottom }}%;
+}
+{{/each}}
+
+{{#each barracks as |rax|}}
+.{{ rax.team }}-{{ rax.lane }}-{{ rax.type }} {
+    position: absolute;
+    left: {{ rax.left }}%;
+    bottom: {{ rax.bottom }}%;
+}
+{{/each}}
+
+{{#each ancients as |ancient|}}
+.{{ ancient.team }}-ancient {
+    position: absolute;
+    left: {{ ancient.left }}%;
+    bottom: {{ ancient.bottom }}%;
+}
+{{/each}}
